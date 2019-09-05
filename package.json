@@ -14,18 +14,20 @@
     "type": "git",
     "url": "git+https://github.com/briancsparks/sy.git"
   },
-  "author": "",
+  "author": "Brian C Sparks <briancsparks@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/briancsparks/sy/issues"
   },
   "homepage": "https://github.com/briancsparks/sy#readme",
   "dependencies": {
+    "aws-sdk": "^2.521.0",
     "cookie-parser": "^1.4.4",
     "debug": "^4.1.1",
     "express": "^4.17.1",
     "hbs": "^4.0.4",
     "http-errors": "^1.7.3",
-    "morgan": "^1.9.1"
+    "morgan": "^1.9.1",
+    "sg-clihelp": "^1.0.40"
   }
 }
