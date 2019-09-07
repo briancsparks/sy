@@ -1,0 +1,5 @@
+#!/bin/bash -e
+
+script_dir="$(dirname $0)"
+
+pm2 start ${dirname}/www --name sy "$@"

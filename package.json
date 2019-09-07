@@ -2,11 +2,15 @@
   "name": "@sg0/sy",
   "version": "1.0.0",
   "description": "sy",
+  "config": {
+    "expressPort": 5111
+  },
   "main": "index.js",
   "bin": {
     "sy": "bin/sy.js"
   },
   "scripts": {
+    "begin": "pm2 start bin/www --time --name sy -- --port 5111",
     "start": "node ./bin/www",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
