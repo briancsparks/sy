@@ -4,7 +4,7 @@ Starting the server:
 
 ```sh
 # From project root
-pm2 start bin/www --name sy
+pm2 start bin/www --name sy -- --port 5111
 ```
 
 ```sh

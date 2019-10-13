@@ -4,15 +4,16 @@
  * Module dependencies.
  */
 
-var app = require('../app');
-var debug = require('debug')('sy:server');
-var http = require('http');
+var app         = require('../app');
+var debug       = require('debug')('sy:server');
+var http        = require('http');
+var {runLoop}   = require('../lib/schedule');
 
 /**
  * Get port from environment and store in Express.
  */
 
-var port = normalizePort(process.env.npm_package_config_expressPort);
+var port = normalizePort(process.env.npm_package_config_expressPort || process.env.PORT || '5111');
 app.set('port', port);
 
 /**
@@ -88,4 +89,6 @@ function onListening() {
     : 'port ' + addr.port;
 
   console.log('Listening on ' + bind);
+
+  runLoop();
 }

@@ -10,7 +10,7 @@
     "sy": "bin/sy.js"
   },
   "scripts": {
-    "begin": "pm2 start bin/www --time --name sy -- --port 5111",
+    "begin": "pm2 start bin/www --name sy --watch",
     "start": "node ./bin/www",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -29,8 +29,10 @@
     "cookie-parser": "^1.4.4",
     "debug": "^4.1.1",
     "express": "^4.17.1",
-    "hbs": "^4.0.4",
+    "hbs": "^4.0.5",
     "http-errors": "^1.7.3",
+    "lodash": "^4.17.15",
+    "minimist": "^1.2.0",
     "morgan": "^1.9.1",
     "sg-clihelp": "^1.0.40"
   }
