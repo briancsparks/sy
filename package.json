@@ -33,7 +33,9 @@
     "http-errors": "^1.7.3",
     "lodash": "^4.17.15",
     "minimist": "^1.2.0",
+    "moment": "^2.24.0",
     "morgan": "^1.9.1",
-    "sg-clihelp": "^1.0.40"
+    "sg-clihelp": "^1.0.40",
+    "sg-env": "^1.0.5"
   }
 }
