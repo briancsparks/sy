@@ -28,6 +28,7 @@
     "aws-sdk": "^2.521.0",
     "cookie-parser": "^1.4.4",
     "debug": "^4.1.1",
+    "deep-equal": "^1.1.1",
     "express": "^4.17.1",
     "hbs": "^4.0.5",
     "http-errors": "^1.7.3",
@@ -35,6 +36,8 @@
     "minimist": "^1.2.0",
     "moment": "^2.24.0",
     "morgan": "^1.9.1",
+    "rfdc": "^1.1.4",
+    "sg-argv": "^1.0.69",
     "sg-clihelp": "^1.0.40",
     "sg-env": "^1.0.5"
   }

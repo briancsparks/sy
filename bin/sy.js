@@ -20,6 +20,8 @@ const main = function() {
   return require(modFname)[fnName](argv);
 };
 
-main();
+if (require.main === module) {
+  main();
+}
 
 
