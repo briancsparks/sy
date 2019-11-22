@@ -35,6 +35,7 @@
     "lodash": "^4.17.15",
     "minimist": "^1.2.0",
     "moment": "^2.24.0",
+    "moment-timezone": "^0.5.27",
     "morgan": "^1.9.1",
     "rfdc": "^1.1.4",
     "sg-argv": "^1.0.69",
