@@ -33,7 +33,7 @@
     "hbs": "^4.0.5",
     "http-errors": "^1.7.3",
     "lodash": "^4.17.15",
-    "minimist": "^1.2.0",
+    "minimist": "^1.2.6",
     "moment": "^2.24.0",
     "moment-timezone": "^0.5.27",
     "morgan": "^1.9.1",
